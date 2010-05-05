@@ -771,7 +771,8 @@ class Kohana_Request {
 	 *
 	 * Download generated content as a file:
 	 *
-	 *     $request->send_file($content, $filename);
+         *     echo $content;
+	 *     $request->send_file(TRUE, $filename);
 	 *
 	 * [!!] No further processing can be done after this method is called!
 	 *
